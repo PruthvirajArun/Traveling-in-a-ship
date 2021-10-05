@@ -1,8 +1,8 @@
 var sea ,ship ,sea_image ,ship_image;
 
 function preload(){
-sea_image = loadImage(sea.png);
-ship_image = loadAnimation(ship1.png,ship2.png,ship3.png,ship3.png)
+sea_image = loadImage('sea.png');
+ship_image = loadAnimation('ship1.png','ship2.png','ship3.png','ship3.png');
 }
 
 function setup(){
